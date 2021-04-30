@@ -1,7 +1,7 @@
 {
   "name": "grunt-sass-scss",
   "description": "Compiles Sass / Scss to Css",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "homepage": "https://github.com/semiromid/grunt-sass",
   "author": {
     "name": "semiromid",
