@@ -59,12 +59,12 @@ exports.sass = {
     test.equal(actual_1, expected_1, 'should compile Sass to Css - file 1');
 
     // .css.map
-    actual_1 = grunt.file.exists(get_path_tmp(filename_1 +'.map'));
+    actual_1 = file_exists(get_path_tmp(filename_1 +'.map'));
     test.equal(actual_1, false, 'css map should not exist - file 2');
 
     test.done();
   },
-  
+
   compile_with_map(test) {
     test.expect(4);
 
@@ -84,11 +84,11 @@ exports.sass = {
     test.equal(actual_2, expected_2, 'should compile Sass to Css - file 2');
 
     // .css.map
-    actual_1 = read_file_tmp(filename_1 + '.map');
-    expected_1 = read_file_expected(filename_1 + '.map');
+    actual_1 = file_exists(get_path_tmp(filename_1 +'.map'));
+    expected_1 = true;
 
-    actual_2 = read_file_tmp(filename_2 + '.map');
-    expected_2 = read_file_expected(filename_2 + '.map');
+    actual_2 = file_exists(get_path_tmp(filename_2 +'.map'));
+    expected_2 = true;
 
     test.equal(actual_1, expected_1, 'css map must exist - file 1');
     test.equal(actual_2, expected_2, 'css map must exist - file 2');
@@ -133,7 +133,7 @@ exports.sass = {
 
     test.done();
   },
-
+  
   compile_async_with_map(test) {
     test.expect(4);
 
@@ -149,23 +149,22 @@ exports.sass = {
       actual_2 = read_file_tmp(filename_2),
       expected_2 = read_file_expected(filename_2);
 
-      console.log(filename_1);
-
     test.equal(actual_1, expected_1, 'should compile Sass to Css - file 1');
     test.equal(actual_2, expected_2, 'should compile Sass to Css - file 2');
 
     // .css.map
-    actual_1 = read_file_tmp(filename_1 + '.map'),
-    expected_1 = read_file_expected(filename_1 + '.map'),
+    actual_1 = file_exists(get_path_tmp(filename_1 +'.map'));
+    expected_1 = true;
 
-    actual_2 = read_file_tmp(filename_2 + '.map'),
-    expected_2 = read_file_expected(filename_2 + '.map');
+    actual_2 = file_exists(get_path_tmp(filename_2 +'.map'));
+    expected_2 = true;
 
     test.equal(actual_1, expected_1, 'css map must exist - file 1');
     test.equal(actual_2, expected_2, 'css map must exist - file 2');
 
     test.done();
   },
+  
 }
 
 
