@@ -1,7 +1,7 @@
 
 # Grunt-sass
 
-[![NPM version](https://img.shields.io/npm/v/grunt-sass-scss.svg)](https://www.npmjs.com/package/grunt-sass-scss)
+[![NPM version](https://img.shields.io/npm/v/grunt-sass-scss.svg)](https://www.npmjs.com/package/grunt-sass-scss) [![Build Status](https://github.com/semiromid/grunt-sass/workflows/Tests/badge.svg)](https://github.com/semiromid/grunt-sass/actions?workflow=Tests)
 
 <table style="width:100%">
   <tr>
