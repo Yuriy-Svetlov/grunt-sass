@@ -1,0 +1,44 @@
+{
+  "name": "grunt-sass-scss",
+  "description": "Compiles Sass / Scss to Css",
+  "version": "0.1.0",
+  "homepage": "https://github.com/semiromid/grunt-sass",
+  "author": {
+    "name": "semiromid",
+    "email": "startpascal@mail.ru"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:semiromid/grunt-sass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/semiromid/grunt-sass/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin",
+    "sass",
+    "scss",
+    "dart-scss",
+    "dart-sass",
+    "grunt",
+    "grunt-sass",
+    "grunt-scss",
+    "grunt-dart-sass",
+    "grunt-dart-scss"
+  ],
+  "dependencies": {
+    "sass": "^1.32.11"
+  }
+}
