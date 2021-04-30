@@ -6,7 +6,7 @@
 <table style="width:100%">
   <tr>
     <td>
-         <img width="118px" alt="Sass logo" src="https://raw.githubusercontent.com/semiromid/grunt-sass/d0dc70860f1d12662dc9a2cda6d7656dd1300039/assets/logo.svg" />
+         <img width="118px" alt="Sass logo" src="https://raw.githubusercontent.com/semiromid/grunt-sass/5434624bc726aeac8e6e22242c820ad88c5981d7/assets/logo.svg" />
     </td>
       <td>
           <h2>Dart Sass for Grunt (2021)</h2>
