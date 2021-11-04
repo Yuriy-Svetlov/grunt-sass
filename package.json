@@ -1,18 +1,18 @@
 {
   "name": "grunt-sass-scss",
   "description": "Compiles Sass / Scss to Css",
-  "version": "0.1.8",
-  "homepage": "https://github.com/semiromid/grunt-sass",
+  "version": "0.1.9",
+  "homepage": "https://github.com/Yuriy-Svetlov/grunt-sass",
   "author": {
-    "name": "semiromid",
-    "email": "startpascal@mail.ru"
+    "name": "Yuriy-Svetlov",
+    "email": "sominiurii@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:semiromid/grunt-sass.git"
+    "url": "git@github.com:Yuriy-Svetlov/grunt-sass.git"
   },
   "bugs": {
-    "url": "https://github.com/semiromid/grunt-sass/issues"
+    "url": "https://github.com/Yuriy-Svetlov/grunt-sass/issues"
   },
   "license": "MIT",
   "engines": {
